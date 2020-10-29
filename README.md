@@ -72,7 +72,7 @@ https://url-shorten-api.vercel.app/?i=1603985599nRrMuJ
     <img alt="YouTube" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/youtube.svg" />
   </a>
 ..
-  <a href="https://t.me/tprojects">
+  <a href="https://telegram.dog/tprojects">
     <img alt="Telegram" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/telegram.svg" />
   </a>
   
