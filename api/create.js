@@ -63,6 +63,7 @@ module.exports = async(req, res) => {
                                 res.json({ //if everything goes correct
                                     status: true,
                                     link: link,
+                                    unique_id: result.ops[0].tid,
                                     timestamp: result.ops[0].ist
                                 })
                             };
