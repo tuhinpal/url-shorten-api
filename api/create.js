@@ -53,7 +53,6 @@ module.exports = async(req, res) => {
                             url: url
                         };
                         dbo.collection("data").insertOne(obj, function(errorr, result) {
-                            console.log(result)
                             if (errorr) { // if error while writing
                                 res.json({
                                     status: false,
