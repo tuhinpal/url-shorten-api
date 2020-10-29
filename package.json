@@ -1,0 +1,24 @@
+{
+    "name": "url-shortner-api",
+    "version": "1.0.0",
+    "description": "Serverless Url Shortener API",
+    "main": "api/index.js",
+    "dependencies": {
+        "mongodb": "^3.6.2",
+        "request": "^2.88.2"
+    },
+    "author": "Tuhin Kanti Pal",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cachecleanerjeet/url-shortner-api.git"
+    },
+    "keywords": [
+        "url-shotner",
+        "url-shortner-api"
+    ],
+    "bugs": {
+        "url": "https://github.com/cachecleanerjeet/url-shortner-api/issues"
+    },
+    "homepage": "https://github.com/cachecleanerjeet/url-shortner-api#readme"
+}
