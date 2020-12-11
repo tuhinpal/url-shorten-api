@@ -59,7 +59,7 @@ module.exports = async(req, res) => {
                                     msg: "Error while write on database"
                                 })
                             } else {
-                                var link = "https://" + process.env.VERCEL_URL + "/?i=" + result.ops[0].tid;
+                                var link = process.env.APP_URL + "/?i=" + result.ops[0].tid;
                                 res.json({ //if everything goes correct
                                     status: true,
                                     link: link,
